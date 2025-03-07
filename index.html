@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Stripe Events for Klaviyo</title>
+	<meta name="description" content="">  
+	<meta name="author" content="Dan Massey">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/prettyPhoto.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <div id="preloader">      
+      <div id="status">
+         <img src="images/preloader.gif" height="64" width="64" alt="">
+      </div>
+   </div>
+
+   <!-- Header
+   ================================================== -->
+   <header>
+
+      <div class="logo">
+         <!-- <a href="index.html"><img alt="" src="images/logo.png"></a> -->
+      </div>
+
+
+      <nav id="nav-wrap">         
+         
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show Menu</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a>         
+
+         <ul id="nav" class="nav">
+            <li><a class="smoothscroll" href="#features">Features</a></li>
+	         <li><a class="smoothscroll" href="#pricing">Pricing</a></li>
+            <li><a href="./event_reference">Event reference</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+   </header> <!-- Header End -->
+
+
+   <!-- Homepage Hero
+   ================================================== -->
+   <section id="hero">
+
+	   <div class="row">
+
+		   <div class="twelve columns">
+
+			   <div class="hero-text">
+				   <h1 class="responsive-headline">
+                  The simplest way to send events from Stripe to Klaviyo
+               </h1>
+			   </div>
+
+            <div class="hero-image">
+               <img src="images/hero.png" alt="" />
+            </div>
+
+		   </div>
+
+	   </div>
+
+   </section> <!-- Homepage Hero end -->
+
+
+   <!-- Features Section
+   ================================================== -->
+   <section id='features'>
+
+      <div class="row feature design">
+
+         <div class="six columns right">
+            <h3>Includes all common invoice and subscription events.</h3>
+
+            <p>
+               Klaviyo's built in Stripe connection doesn't include common subscription events. 
+            </p>
+            <p>
+               Events for Klaviyo supports Customer Subscription events, Invoice events and Subscription Schedule events.
+            </p>
+            <p>
+               Turning on a new event is as easy as one click.
+            </p>
+         </div>
+
+         <div class="six columns feature-media left">
+             <img src="images/1.png" width="454" alt="" />
+         </div>
+
+      </div>
+
+      <div class="row feature responsive">
+
+         <div class="six columns left">
+            <h3>Metadata included as standard.</h3>
+
+            <p>
+               Each event is sent to Klaviyo along with useful metadata, like invoice URLs, dates, totals, subtotals, tax amounts and more.
+            </p>
+            <p>
+               This makes writing personalized emails straightforward.
+            </p>
+            <p>
+               When an event involves a changed entity, we even include old and new values.
+            </p>
+         </div>
+
+         <div class="six columns feature-media right">
+             <img src="images/2.png" width="454" alt="" />
+         </div>
+
+      </div>
+
+      <div class="row feature cross-browser">
+
+         <div class="six columns right">
+            <h3>No coding or technical skills needed.</h3>
+
+            <p>
+               Setup takes less than 30 seconds.
+             </p>
+
+            <p>
+              Connecting your account doesn't need you to set up webhooks, or copy and paste code or keys.
+            </p>
+
+            <p>
+              Updates to events can be made at any time, without needing to make changes to code.
+            </p>
+         </div>
+
+         <div class="six columns feature-media left">
+             <img src="images/3.png" width="454" alt="" />
+         </div>
+
+      </div>
+
+   </section> <!-- Homepage Hero end -->
+
+
+    <!-- Pricing Section
+   ================================================== -->
+   <section id="pricing">
+
+      <div class="row section-head">
+
+         <h1>Pricing.</h1>
+
+      </div>
+
+      <div class="row">
+
+         <div class="pricing-tables s-bgrid-halves">
+
+               <div class="price-block">
+
+                  <p class="plan-price">$25 <span>per month</span></p>
+
+                  <ul class="features">
+                     <li>7 day free trial</li>
+                     <li>No commitment</li>
+                     <li>3 event categories</li>
+                     <li>Unlimited events</li>
+                     <li>Direct email support</li>
+                  </ul>
+               </div> <!-- End Price Block -->
+
+         </div>
+
+      </div>
+
+   </section> <!-- Pricing End -->
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <!-- <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get Hosting.</span></h1>
+
+         </div>
+
+         <div class="seven columns">
+
+            <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h2>
+            <p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+					Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. 
+            -->
+					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. --></p>
+<!--
+         </div>
+
+         <div class="three columns action">
+
+            <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
+
+         </div>
+
+      </div>
+
+   </section> -->
+   <!-- Call-To-Action Section End -->
+
+
+
+   <!-- Footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">         
+
+         <div class="six columns info">
+
+            <div class="footer-logo">
+
+            </div>
+
+            <p>Stripe Events for Klaviyo.
+            </p>
+
+         </div>
+
+         <div class="six columns right-cols">
+
+            <div class="row">
+
+               <div class="columns">
+                  <h3 class="address">Useful links</h3>
+                  <ul>
+                     <li><a href="./privacy">Privacy Policy</a></li>
+                     <li><a href="./tos">Terms of Service</a></li>
+                     <li><a href="./event_reference">Event Reference</a></li>
+                  </ul>
+               </div>
+
+               <div class="columns">
+                  <!-- <h3 class="social">socialize</h3>
+                  <ul>
+                     <li><a href="#">Facebook</a></li>
+                     <li><a href="#">Twitter</a></li>
+                     <li><a href="#">GooglePlus</a></li>
+                  </ul> -->
+               </div>
+
+               <div class="columns last">
+                  <h3 class="contact">Contact Us</h3>
+                  <ul>
+                    <li><a href="mailto:dan@massey-consulting.com">dan@massey-consulting.com</a></li>
+                  </ul>
+               </div>
+
+            </div> <!-- Nested Row End -->
+
+         </div>
+
+         <p class="copyright">&copy; 2024 Massey Consulting | Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></p>
+
+         <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#hero"><i class="icon-up-open"></i></a>
+         </div>
+
+      </div> <!-- Row End -->
+
+   </footer> <!-- Footer End-->
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/jquery.fitvids.js"></script>
+   <script src="js/imagelightbox.js"></script>
+   <script src="js/jquery.prettyPhoto.js"></script>   
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
